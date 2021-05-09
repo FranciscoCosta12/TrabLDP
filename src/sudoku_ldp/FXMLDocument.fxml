@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="flowPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="720.0" styleClass="flowPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku_ldp.FXMLDocumentController">
+   <children>
+      <Button fx:id="btn1" layoutX="507.0" layoutY="133.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="buttonN" text="1" />
+      <Button fx:id="btn2" layoutX="571.0" layoutY="133.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="buttonN" text="2" />
+      <Button fx:id="btn3" layoutX="635.0" layoutY="133.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="buttonN" text="3" />
+      <Button fx:id="btn6" layoutX="635.0" layoutY="190.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="buttonN" text="6" />
+      <Button fx:id="btn5" layoutX="571.0" layoutY="190.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="buttonN" text="5" />
+      <Button fx:id="btn4" layoutX="507.0" layoutY="190.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="buttonN" text="4" />
+      <Button fx:id="btn7" layoutX="507.0" layoutY="246.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="buttonN" text="7" />
+      <Button fx:id="btn8" layoutX="571.0" layoutY="246.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="buttonN" text="8" />
+      <Button fx:id="btn9" layoutX="635.0" layoutY="246.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="buttonN" text="9" />
+      <Label alignment="CENTER" layoutX="560.0" layoutY="60.0" prefHeight="30.0" prefWidth="73.0" text="00 : 00" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Canvas fx:id="canvas" height="450.0" layoutX="14.0" layoutY="22.0" width="450.0" />
+      <Button layoutX="507.0" layoutY="440.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Fácil" />
+      <Button layoutX="507.0" layoutY="404.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Médio" />
+      <Button layoutX="507.0" layoutY="367.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Difícil" />
+      <Label layoutX="507.0" layoutY="336.0" text="Dificuldades:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button layoutX="606.0" layoutY="404.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Novo Jogo" />
+      <Label alignment="CENTER" layoutX="541.0" layoutY="103.0" prefHeight="17.0" prefWidth="111.0" text="Player 1 Wins!">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="606.0" layoutY="440.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Desistir" />
+      <Label layoutX="551.0" layoutY="41.0" text="Player 1 a jogar.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
